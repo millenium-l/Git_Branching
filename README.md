@@ -12,6 +12,7 @@ learning Git Branching
    '''
 
 2. Switching between branches
+
     '''bash
        git switch branchname
     '''
