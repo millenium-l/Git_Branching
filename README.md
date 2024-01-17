@@ -11,11 +11,11 @@ learning Git Branching
    ```
 2. Switching between branches
     ```bash
-       git switch branchname
+       git switch "branchname"
     ```
 3. Directly switching to a new branch
    ```bash
-	git checkout -b branchname
+	git checkout -b "branchname"
    ```	
 
 4. Merging: (completing a feature/fix errors or bugs)
@@ -27,8 +27,12 @@ learning Git Branching
     ```bash
        git mergetool
     ``` 
+6. Deleting a branch
+  ```bash
+    git checkout -d "branchname"
+  ```
 
-6. list all branches
+7. list all branches
 
  'git branch'
  'git branch -v'
