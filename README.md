@@ -6,32 +6,25 @@ learning Git Branching
 ## Git commands
 
 1. create a branch
-
    '''bash
        git branch "branchname" 
    '''
-
 2. Switching between branches
-
     '''bash
        git switch branchname
     '''
-
 3. Directly switching to a new branch
-
-  '''bash
+   '''bash
 	git checkout -b branchname
    '''	
 
 4. Merging: (completing a feature/fix errors or bugs)
-
    '''bash
        git merge sourcebranch
    ''' 
 
 5. Resolve conflicts
-
-   '''bash
+    '''bash
        git mergetool
     ''' 
 
